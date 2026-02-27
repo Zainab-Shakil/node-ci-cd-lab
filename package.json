@@ -1,0 +1,26 @@
+{
+  "name": "ci-cd-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zainab-Shakil/node-ci-cd-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zainab-Shakil/node-ci-cd-lab/issues"
+  },
+  "homepage": "https://github.com/Zainab-Shakil/node-ci-cd-lab#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
