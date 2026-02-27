@@ -28,4 +28,4 @@ jobs:
         run: npm test
 
       - name: Use Secret
-        run: echo "API KEY is ${{ secrets.PRODUCTION_API_KEY }}
+        run: echo 'API KEY is ${{ secrets.PRODUCTION_API_KEY }}'
