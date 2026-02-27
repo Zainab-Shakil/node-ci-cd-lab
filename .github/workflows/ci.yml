@@ -30,7 +30,7 @@ jobs:
       - name: Use Secret
         run: echo 'API KEY is ${{ secrets.PRODUCTION_API_KEY }}'
   deploy:
-    needs: test
+    needs: build
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
 
