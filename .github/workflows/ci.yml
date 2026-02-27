@@ -29,3 +29,13 @@ jobs:
 
       - name: Use Secret
         run: echo 'API KEY is ${{ secrets.PRODUCTION_API_KEY }}'
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Deploy to Production
+        run: echo "Deploying application to production..."
